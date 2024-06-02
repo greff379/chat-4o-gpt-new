@@ -123,7 +123,7 @@ export class ClientApi {
         {
           from: "human",
           value:
-            "Share from [Chat GPT]: https://github.com/Yidadaa/ChatGPT-Next-Web",
+            "Share from [Chat-GPT-free.com]: https://gpt-chatbot.ru",
         },
       ]);
     // 敬告二开开发者们，为了开源大模型的发展，请不要修改上述消息，此消息用于后续数据清洗使用
