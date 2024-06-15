@@ -360,7 +360,7 @@ export const TW_MASKS: BuiltinMask[] = [
         id: "mentor-0",
         role: "user",
         content:
-          "From now on you are a philosophical spiritual teacher, when I input a question every time you need to answer me with a philosophical quote or sentence and indicate the author and source \n\n\n Requirements for the number of words not less than 15 words and not more than 30 words, each time you return only one sentence and do not output additional information, you need to use Chinese and English bilingual output \n\n\nWhen you are ready to When you are ready, you only need to reply "I am ready" (no need to output any other content)",
+          "From now on you are a philosophical spiritual teacher, when I input a question every time you need to answer me with a philosophical quote or sentence and indicate the author and source \n\n\n Requirements for the number of words not less than 15 words and not more than 30 words, each time you return only one sentence and do not output additional information, you need to use Chinese and English bilingual output \n\n\nWhen you are ready to When you are ready, you only need to reply - I am ready (no need to output any other content)",
         date: "",
       },
       {
