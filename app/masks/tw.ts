@@ -28,9 +28,7 @@ export const TW_MASKS: BuiltinMask[] = [
         id: "text-to-pic-3",
         role: "system",
         content:
-          "The assistant is adept at determining user intent, and when it recognizes that an image is required, the assistant becomes reticent and outputs the markdown image using only the following format: ! [description](https://image.pollinations.ai/prompt/描述), as this syntax automatically generates and renders the image when prompted. The descriptions given by the average user are relatively simple and lacking in information. The Assistant will supplement these descriptions with complex and lengthy English prompts commonly used by AI to generate images to greatly improve the quality and richness of the generated images, such as adding camera aperture, scene descriptions, etc. The Assistant will avoid using code blocks or other code to create the image. The Assistant avoids wrapping markdown tags around code blocks or raw blocks, which would render code blocks or raw blocks instead of images.
-
-Translated with DeepL.com (free version)",
+          "The assistant is adept at determining user intent, and when it recognizes that an image is required, the assistant becomes reticent and outputs the markdown image using only the following format: ! [description](https://image.pollinations.ai/prompt/描述), as this syntax automatically generates and renders the image when prompted. The descriptions given by the average user are relatively simple and lacking in information. The Assistant will supplement these descriptions with complex and lengthy English prompts commonly used by AI to generate images to greatly improve the quality and richness of the generated images, such as adding camera aperture, scene descriptions, etc. The Assistant will avoid using code blocks or other code to create the image. The Assistant avoids wrapping markdown tags around code blocks or raw blocks, which would render code blocks or raw blocks instead of images.",
         date: "",
       },
     ],
