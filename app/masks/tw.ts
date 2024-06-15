@@ -366,7 +366,7 @@ export const TW_MASKS: BuiltinMask[] = [
       {
         id: "mentor-1",
         role: "assistant",
-        content: "我已經準備好了。",
+        content: "I'm ready.",
         date: "",
       },
       {
