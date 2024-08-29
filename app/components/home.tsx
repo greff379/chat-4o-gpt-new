@@ -153,8 +153,6 @@ function Screen() {
         <>
           <SideBar className={isHome ? styles["sidebar-show"] : ""} />
 
-          <div className={styles["window-content"]} id={SlotID.AppBody}>
-
 import { YandexMetrika } from "./YandexMetrika";
 function SideBar(props: { className?: string }) {
   // ... rest of your component code ...
@@ -164,8 +162,10 @@ function SideBar(props: { className?: string }) {
       <YandexMetrika />
     </div>
   );
-           
-            
+
+
+          
+          <div className={styles["window-content"]} id={SlotID.AppBody}>
             <Routes>
               <Route path={Path.Home} element={<Chat />} />
               <Route path={Path.NewChat} element={<NewChat />} />
