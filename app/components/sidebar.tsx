@@ -156,16 +156,8 @@ export function SideBar(props: { className?: string }) {
       <div className={styles["sidebar-header"]} data-tauri-drag-region>
         <div className={styles["sidebar-title"]} data-tauri-drag-region>
           <a href="https://chat-gpt-free.com/" target="_blank" rel="noopener">Chat-GPT-free.com</a>
-        </div>
-        <div className={styles["sidebar-sub-title"]}>
-          Your own GPT assistant
-        </div>
-        <div className={styles["sidebar-logo"] + " no-dark"}>
-          <ChatGptIcon />
-        </div>
-      </div>
 
-<!-- Yandex.Metrika counter -->
+          <!-- Yandex.Metrika counter -->
 <script type="text/javascript" >
    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
    m[i].l=1*new Date();
@@ -181,7 +173,17 @@ export function SideBar(props: { className?: string }) {
 </script>
 <noscript><div><img src="https://mc.yandex.ru/watch/98190454" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
-      
+
+  
+        </div>
+        <div className={styles["sidebar-sub-title"]}>
+          Your own GPT assistant
+        </div>
+        <div className={styles["sidebar-logo"] + " no-dark"}>
+          <ChatGptIcon />
+        </div>
+      </div>
+   
       <div className={styles["sidebar-header-bar"]}>
         <IconButton
           icon={<MaskIcon />}
