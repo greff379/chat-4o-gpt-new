@@ -111,6 +111,7 @@ export function SessionConfigModel(props: { onClose: () => void }) {
 
   return (
     <div className="modal-mask">
+      <a href="https://chat-gpt-free.com/" target="_blank">Chat-GPT-free.com</a>
       <Modal
         title={Locale.Context.Edit}
         onClose={() => props.onClose()}
