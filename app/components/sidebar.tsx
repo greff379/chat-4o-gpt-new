@@ -164,9 +164,7 @@ export function SideBar(props: { className?: string }) {
           <ChatGptIcon />
         </div>
       </div>   
-
-      <div id="yandex_rtb_R-A-11782066-1"></div><script>yaContextCb.push(()=>Ya.Context.AdvManager.render({blockId:"R-A-11782066-1",renderTo:"yandex_rtb_R-A-11782066-1"}))</script>
-      
+    
       <div className={styles["sidebar-header-bar"]}>
         <IconButton
           icon={<MaskIcon />}
@@ -188,6 +186,11 @@ export function SideBar(props: { className?: string }) {
           onClick={() => showToast(Locale.WIP)}
           shadow
         />
+      </div>
+
+      <div className={styles["sidebar-header-bar"]}>
+        <div id="yandex_rtb_R-A-11782066-1"></div><script>yaContextCb.push(()=>Ya.Context.AdvManager.render({blockId:"R-A-11782066-1",renderTo:"yandex_rtb_R-A-11782066-1"}))</script>
+
       </div>
 
       <div
