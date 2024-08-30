@@ -39,7 +39,6 @@ export default function RootLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
         <link rel="manifest" href="/site.webmanifest"></link>
         <script src="/serviceWorkerRegister.js" defer></script>
-        <script src="https://adnitro.pro/js/adnitro_static_banner.js"></script>
       </head>
       <body>
         {children}
