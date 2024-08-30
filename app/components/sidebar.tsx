@@ -188,10 +188,7 @@ export function SideBar(props: { className?: string }) {
         />
       </div>
 
-      <div className={styles["sidebar-header-bar"]}>
-        <div id="yandex_rtb_R-A-11782066-1"></div><script>yaContextCb.push(()=>Ya.Context.AdvManager.render({blockId:"R-A-11782066-1",renderTo:"yandex_rtb_R-A-11782066-1"}))</script>
-
-      </div>
+      <div id="yandex_rtb_R-A-11782066-1"></div><script>yaContextCb.push(()=>Ya.Context.AdvManager.render({blockId:"R-A-11782066-1",renderTo:"yandex_rtb_R-A-11782066-1"}))</script>
 
       <div
         className={styles["sidebar-body"]}
