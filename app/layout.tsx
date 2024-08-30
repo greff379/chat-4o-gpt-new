@@ -11,7 +11,7 @@ const serverConfig = getServerSideConfig();
 
 export const metadata: Metadata = {
   title: "NextChat",
-  description: "Your personal ChatGPT Chat Bot.",
+  description: "Your personal chat GPT",
   viewport: {
     width: "device-width",
     initialScale: 1,
@@ -41,7 +41,7 @@ export default function RootLayout({
         <script src="/serviceWorkerRegister.js" defer></script>
         <!-- Yandex.RTB -->
         <script>window.yaContextCb=window.yaContextCb||[]</script>
-        <script src="https://yandex.ru/ads/system/context.js" async></script>
+        <script src="//yandex.ru/ads/system/context.js" async></script>
       </head>
       <body>
         <script src="/Metrika.js" defer></script>
