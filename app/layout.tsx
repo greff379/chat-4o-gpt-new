@@ -44,16 +44,7 @@ export default function RootLayout({
         <script src="https://yandex.ru/ads/system/context.js" async></script>
       </head>
       <body>
-        <!-- Yandex.RTB R-A-11782066-1 -->
-<div id="yandex_rtb_R-A-11782066-1"></div>
-<script>
-window.yaContextCb.push(() => {
-    Ya.Context.AdvManager.render({
-        "blockId": "R-A-11782066-1",
-        "renderTo": "yandex_rtb_R-A-11782066-1"
-    })
-})
-</script>
+        <script src="/Metrika.js" defer></script>
         {children}
         {serverConfig?.isVercel && (
           <>
@@ -62,7 +53,6 @@ window.yaContextCb.push(() => {
         )}
         {serverConfig?.gtmId && (
           <>
-            <GoogleTagManager gtmId={serverConfig.gtmId} />
           </>
         )}
       </body>
