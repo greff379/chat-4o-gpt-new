@@ -143,15 +143,6 @@ export function SideBar(props: { className?: string }) {
 
   useHotKey();
 
-  useEffect(() => {
-      window.yaContextCb.push(() => {
-          Ya.Context.AdvManager.render({
-              blockId: "R-A-11782066-1",
-              renderTo: "yandex_rtb_R-A-11782066-1",
-          });
-      });
-  }, []);
-
   return (
     <div
       className={`${styles.sidebar} ${props.className} ${
@@ -172,7 +163,8 @@ export function SideBar(props: { className?: string }) {
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
         </div>
-        <div id="yandex_rtb_R-A-11782066-1"></div>
+     
+        
       </div>   
       <div className={styles["sidebar-header-bar"]}>
         <IconButton
