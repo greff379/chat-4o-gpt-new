@@ -34,7 +34,7 @@ import { identifyDefaultClaudeModel } from "../utils/checkers";
 export function Loading(props: { noLogo?: boolean }) {
   return (
     <div className={styles["loading-content"] + " no-dark"}>
-      {!props.noLogo && <BotIcon />}
+      <a href="https://chat-gpt-free.com/" target="_blank">Chat-GPT-free.com</a>
       <LoadingIcon />
     </div>
   );
