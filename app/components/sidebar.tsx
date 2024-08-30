@@ -156,6 +156,9 @@ export function SideBar(props: { className?: string }) {
       <div className={styles["sidebar-header"]} data-tauri-drag-region>
         <div className={styles["sidebar-title"]} data-tauri-drag-region>
           <a href="https://chat-gpt-free.com/" target="_blank">Chat-GPT-free.com</a>
+          
+          <div id="yandex_rtb_R-A-11782066-1"></div><script>yaContextCb.push(()=>Ya.Context.AdvManager.render({blockId:"R-A-11782066-1",renderTo:"yandex_rtb_R-A-11782066-1"}))</script>
+  
         </div>
         <div className={styles["sidebar-sub-title"]}>
           Your own GPT assistant
@@ -187,8 +190,6 @@ export function SideBar(props: { className?: string }) {
           shadow
         />
       </div>
-
-      <div id="yandex_rtb_R-A-11782066-1"></div><script>yaContextCb.push(()=>Ya.Context.AdvManager.render({blockId:"R-A-11782066-1",renderTo:"yandex_rtb_R-A-11782066-1"}))</script>
 
       <div
         className={styles["sidebar-body"]}
