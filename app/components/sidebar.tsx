@@ -164,7 +164,7 @@ export function SideBar(props: { className?: string }) {
           <ChatGptIcon />
         </div>
      
-        <script type='text/javascript' src='Metrika.js'></script>
+        
       </div>   
       <div className={styles["sidebar-header-bar"]}>
         <IconButton
