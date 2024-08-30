@@ -6,7 +6,7 @@ import { getClientConfig } from "./config/client";
 import { type Metadata } from "next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { getServerSideConfig } from "./config/server";
-import { Metrika } from "./Metrika.js";
+import { Metrika } from "./Metrika";
 const serverConfig = getServerSideConfig();
 
 export const metadata: Metadata = {
@@ -33,7 +33,6 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
       <head>
         <meta name="config" content={JSON.stringify(getClientConfig())} />
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
@@ -56,6 +55,5 @@ export default function RootLayout({
           </>
         )}
       </body>
-    </html>
   );
 }
