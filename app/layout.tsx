@@ -39,8 +39,21 @@ export default function RootLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
         <link rel="manifest" href="/site.webmanifest"></link>
         <script src="/serviceWorkerRegister.js" defer></script>
+        <!-- Yandex.RTB -->
+        <script>window.yaContextCb=window.yaContextCb||[]</script>
+        <script src="https://yandex.ru/ads/system/context.js" async></script>
       </head>
       <body>
+        <!-- Yandex.RTB R-A-11782066-1 -->
+<div id="yandex_rtb_R-A-11782066-1"></div>
+<script>
+window.yaContextCb.push(() => {
+    Ya.Context.AdvManager.render({
+        "blockId": "R-A-11782066-1",
+        "renderTo": "yandex_rtb_R-A-11782066-1"
+    })
+})
+</script>
         {children}
         {serverConfig?.isVercel && (
           <>
