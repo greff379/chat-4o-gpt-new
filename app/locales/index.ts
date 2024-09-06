@@ -10,7 +10,6 @@ import tr from "./tr";
 import jp from "./jp";
 import de from "./de";
 import vi from "./vi";
-import ru from "./ru";
 import no from "./no";
 import cs from "./cs";
 import ko from "./ko";
@@ -36,7 +35,6 @@ const ALL_LANGS = {
   tr,
   de,
   vi,
-  ru,
   cs,
   no,
   ar,
@@ -62,7 +60,6 @@ export const ALL_LANG_OPTIONS: Record<Lang, string> = {
   tr: "Türkçe",
   de: "Deutsch",
   vi: "Tiếng Việt",
-  ru: "Русский",
   cs: "Čeština",
   no: "Nynorsk",
   ar: "العربية",
