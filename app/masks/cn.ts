@@ -3,7 +3,7 @@ import { BuiltinMask } from "./typing";
 export const CN_MASKS: BuiltinMask[] = [
   {
     avatar: "1f5bc-fe0f",
-    name: Search for pictures by writing",
+    name: "Search for pictures by writing",
     context: [
       {
         id: "text-to-pic-0",
