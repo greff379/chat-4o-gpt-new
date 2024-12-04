@@ -2,7 +2,7 @@ export const OWNER = "Chat-GPT-free";
 export const REPO = "chat-4o-gpt-new";
 export const REPO_URL = `https://github.com/${OWNER}/${REPO}`;
 export const ISSUE_URL = `https://github.com/${OWNER}/${REPO}/issues`;
-export const UPDATE_URL = `https://chat-gpt-free.com/`;
+export const UPDATE_URL = `https://gpt-chatbot.ru/`;
 export const RELEASE_URL = `${REPO_URL}/releases`;
 export const FETCH_COMMIT_URL = `https://api.github.com/repos/${OWNER}/${REPO}/commits?per_page=1`;
 export const FETCH_TAG_URL = `https://api.github.com/repos/Yidadaa/ChatGPT-Next-Web/tags?per_page=1`;
