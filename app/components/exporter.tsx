@@ -547,9 +547,9 @@ export function ImagePreviewer(props: {
           </div>
 
           <div>
-            <div className={styles["main-title"]}>Chat-GPT-free.com</div>
+            <div className={styles["main-title"]}>GPT-ChatBot.ru</div>
             <div className={styles["sub-title"]}>
-              chat-gpt-free.com
+              GPT-ChatBot.ru
             </div>
             <div className={styles["icons"]}>
               <ExportAvatar avatar={config.avatar} />
